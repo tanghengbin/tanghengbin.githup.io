@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <!--<meta>标签包含在<head>…</head>标签中，用于向浏览器、搜索引擎或其他网络服务提供有关网站的附加信息。这些信息不会显示在网页本身。<meta>标签没有结束标签.-->
+
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content= "这是我的第一个网站。它教你如何使用HTML和CSS">
+  
+  <style type="text/css">
+	h1
+	 {
+		font-size:60px;
+		text-align:center;
+		color:red; 
+      }
+	h2
+	 {
+		font-size:40px;
+
+	 }
+	 div
+	 {
+		font-size:20px;
+	 }
+	 p
+	 {
+		font-size:40px;
+	 }
+	 a:link{font-size:30px;
+	       text-decoration:none;/*去下划线*/
+		   color:white;
+		   padding:5px;/*文本与边框的距离*/
+		   }
+	         /*链接未访问时的样式*/
+
+	a:visited{color:black;
+	          }
+	         /*链接已被访问过的样式*/ 
+			 
+	a:hover{/*border:3px solid yellow;用边框框住链接*/
+	        font-size:40px;
+			color:red;
+			  }
+			  /*鼠标放在上面时的样式*/
+
+	a:active{color:blue;
+	         }
+	          /*鼠标点击时的样式*/
+
+  </style>
+  <title>第一节Linux总结</title>
+  
+ </head>
+ <body>
+	<h1>第一节Linux总结</h1>
+	<h2>简要</h2>
+	<div id="start">
+		<p>
+			1、下载Git并调整到合适字体<br>
+			2、调整字体方法为右击左上角后点击Options
+				选择Text中的Selsct即可根据自己习惯调整
+				字体格式及大小<br>
+			3、养成输入cd / ，进入根目录的习惯<br>
+			4、学习了Linux的一些基本操作
+		</p>
+	</div>
+	<h2>Linux的操作详情</h2>
+	<div id="mid">
+		1、cd 改变当前的操作目录，如cd / ，就是将当前操作目录改为根目录<br>
+		2、mkdir 创建一个文件夹，如mkdir TangHB ，就是在当前目录下创建一个
+		   TangHB文件夹<br>
+		3、rm 删除文件，如rm THB.jpg ，就是删除当前目录下的THB.jpg文件；rm * , 
+		   删除当前目录下的所有文件<br>
+		4、ls 列出当前目录下的所有文件<br>
+		5、ls -a 列出当前目录下的包括隐藏的所有文件<br>
+		6、cp 复制文件，如cp D:/photo/THB.jpg . ,就是复制此文件到当前目录<br>
+		7、history 查看你的历史所有操作<br>
+		8、history > 将你的历史所有操作写入到指定文件中，如history > THB.txt<br>
+		9、快捷键Tap，可以帮你补全操作或者给予相应的操作提示<br>
+		10、--help，用于一些操作符的后面，作用为查看该操作符的具体使用方法<br>
+		11、当使用cp或rm对文件进行操作时，若操作的文件中含有文件夹，通常是不能成功的，		可以尝试在结尾加-r进行操作<br>
+		12、exit 退出程序
+	</div>
+	<h2>感悟</h2>
+	<div id="end">
+		通过对Linux的一系列学习，对Linux有了初步的认识，接下来会循循渐进，继续加深学习
+	</div>
+	<img src="GreatWall.jpg" width="100px" height="100px" alt="My Image" />
+	<p>
+	附件<br>
+	<a href="https://tanghengbin.github.io/TangHB.github.io/20213582-2023-09-06.txt">
+	我的历史操作</a>
+	</p>
+	<!--<script>
+		document.getElementById("para1").innerHTML = "Hello JavaScript!";
+	</script>
+
+ </body>
+</html>
